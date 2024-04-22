@@ -90,6 +90,7 @@ div#outfitting {
 
 #bagspace-world {
 	border: 1px solid #EEE;
+	overflow-y: auto;
 }
 
 div.supplyItem {
