@@ -182,6 +182,7 @@ var World = {
 
     // Create the bag panel
     $('<div>').attr('id', 'bagspace-world').append($('<div>')).appendTo(outer);
+    document.getElementById("bagspace-world").style.overflow='auto';
     $('<div>').attr('id', 'backpackTitle').appendTo(outer);
     $('<div>').attr('id', 'backpackSpace').appendTo(outer);
     $('<div>').attr('id', 'healthCounter').appendTo(outer);
